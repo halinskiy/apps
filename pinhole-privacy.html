@@ -104,9 +104,9 @@
   <li>A session identifier, the app build number and the season being played.</li>
   <li>Play events: what happened during a run, such as a floor cleared, an item taken or a death, with the time it happened.</li>
   <li>The result of a finished run: the floor reached, how long it took, how many creatures were killed and how it ended.</li>
-  <li>The player name you type in the game, between 2 and 18 characters. This is the one thing other players see.</li>
+  <li>The player name on the leaderboard, between 2 and 18 characters: a random one the game gives you, or the one you type. This is the one thing other players see.</li>
 </ul>
-<p>If you never type a name, your runs appear on the board as «Охотник» (Hunter).</p>
+<p>A name other players could find rude is shown to them as «Hunter».</p>
 
 <h2>Where it is kept</h2>
 <p>On Cloudflare Workers and a Cloudflare D1 database operated by the developer. The server stores the time it received each message. It does not store your IP address. Nobody else has access to this data, and it is used only to run the leaderboard and improve the game.</p>
@@ -144,9 +144,9 @@
   <li>Идентификатор сессии, номер сборки и сезон, в котором идёт игра.</li>
   <li>Игровые события: что произошло за забег, например зачищен этаж, взята вещь или наступила смерть, и когда это было.</li>
   <li>Итог законченного забега: до какого этажа дошли, сколько это заняло, сколько тварей убито и чем всё кончилось.</li>
-  <li>Имя игрока, которое вы вводите в игре, от 2 до 18 знаков. Это единственное, что видят другие игроки.</li>
+  <li>Имя игрока на доске рекордов, от 2 до 18 знаков: случайное, которое даёт игра, или то, что вы ввели. Это единственное, что видят другие игроки.</li>
 </ul>
-<p>Если имя не вводить, забеги попадают на доску под именем «Охотник».</p>
+<p>Грубое имя другие игроки видят как «Hunter».</p>
 
 <h2>Где это хранится</h2>
 <p>На Cloudflare Workers и в базе Cloudflare D1, которыми управляет разработчик. Сервер записывает время получения каждого сообщения. IP-адрес не сохраняется. Доступа у посторонних нет, данные используются только для доски рекордов и для улучшения игры.</p>
