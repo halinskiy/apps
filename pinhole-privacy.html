@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pinhole — Privacy Policy</title>
+<meta name="description" content="What the Pinhole game collects, what it does not, and where it is kept.">
+<style>
+  :root {
+    --night:   #0b0908;
+    --plaque:  #16110e;
+    --bone:    #ede0c7;
+    --bone-dim:#b9ac95;
+    --amber:   #ffbf66;
+    --rust:    #8a4a2b;
+    --line:    rgba(237, 224, 199, .18);
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    padding: 0 16px 72px;
+    background:
+      radial-gradient(900px 520px at 50% -140px, rgba(255, 191, 102, .10), transparent 70%),
+      var(--night);
+    color: var(--bone);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  }
+  .wrap { max-width: 660px; margin: 0 auto; }
+  header { padding: 56px 0 28px; text-align: center; }
+  .mark {
+    width: 46px; height: 46px; margin: 0 auto 20px;
+    border-radius: 50%;
+    border: 1px solid var(--line);
+    background: radial-gradient(circle at 50% 50%, var(--amber) 0 3px, rgba(255,191,102,.22) 3px 9px, transparent 10px);
+  }
+  h1 {
+    font-family: "Iowan Old Style", Georgia, "Times New Roman", serif;
+    font-size: 30px; font-weight: 600; letter-spacing: .01em;
+    margin: 0 0 8px; color: var(--bone);
+  }
+  .sub { margin: 0; color: var(--bone-dim); font-size: 15px; }
+  main {
+    background: var(--plaque);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 8px 28px 32px;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.04), 0 18px 48px rgba(0,0,0,.55);
+  }
+  h2 {
+    font-family: "Iowan Old Style", Georgia, "Times New Roman", serif;
+    font-size: 20px; font-weight: 600; color: var(--amber);
+    margin: 34px 0 10px; padding-top: 22px; border-top: 1px solid var(--line);
+  }
+  h2:first-of-type { border-top: 0; padding-top: 10px; }
+  p, li { color: var(--bone); font-size: 17px; }
+  ul { padding-left: 22px; margin: 10px 0; }
+  li { margin: 6px 0; }
+  li::marker { color: var(--rust); }
+  a { color: var(--amber); text-underline-offset: 3px; }
+  a:hover { color: #ffd598; }
+  .lang { text-align: center; margin: 0 0 36px; font-size: 15px; }
+  .lang a { margin: 0 10px; }
+  .note {
+    margin: 36px 0 0; padding-top: 20px; border-top: 1px solid var(--line);
+    color: var(--bone-dim); font-size: 15px;
+  }
+  @media (max-width: 480px) {
+    header { padding: 40px 0 22px; }
+    h1 { font-size: 25px; }
+    main { padding: 8px 20px 26px; border-radius: 8px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="mark" aria-hidden="true"></div>
+  <h1>Pinhole</h1>
+  <p class="sub">Privacy Policy · Last updated 19 October 2026</p>
+</header>
+
+<p class="lang"><a href="#en">English</a> · <a href="#ru">Русский</a></p>
+
+<main>
+
+<h2 id="en">What Pinhole is</h2>
+<p>Pinhole is a single-player roguelike for iPhone and iPad. There is no account, no sign-in and nothing to buy. You pick a name, you go down into the dark, and the game keeps a leaderboard of how far everyone got.</p>
+
+<h2>What the game does not collect</h2>
+<ul>
+  <li>No email address, phone number, postal address or real name.</li>
+  <li>No contacts, photos, location, microphone or camera data.</li>
+  <li>No advertising identifier (IDFA), no advertising and no third-party tracking SDKs.</li>
+  <li>Nothing is sold, and nothing is shared with data brokers or used to track you across other apps or websites.</li>
+</ul>
+
+<h2>What the game does collect</h2>
+<p>So the leaderboard can work and so broken things can be found and fixed, the game sends the following to a server run by the developer:</p>
+<ul>
+  <li>A random install identifier created on your device the first time you play. It is not your device ID and it is not tied to your Apple Account.</li>
+  <li>A session identifier, the app build number and the season being played.</li>
+  <li>Play events: what happened during a run, such as a floor cleared, an item taken or a death, with the time it happened.</li>
+  <li>The result of a finished run: the floor reached, how long it took, how many creatures were killed and how it ended.</li>
+  <li>The player name you type in the game, between 2 and 18 characters. This is the one thing other players see.</li>
+</ul>
+<p>If you never type a name, your runs appear on the board as «Охотник» (Hunter).</p>
+
+<h2>Where it is kept</h2>
+<p>On Cloudflare Workers and a Cloudflare D1 database operated by the developer. The server stores the time it received each message. It does not store your IP address. Nobody else has access to this data, and it is used only to run the leaderboard and improve the game.</p>
+
+<h2>Your game progress</h2>
+<p>Your save, your unlocked talents, your equipment and your settings are stored only on your device. Deleting the app deletes them. They cannot be read or restored by the developer.</p>
+
+<h2>TestFlight</h2>
+<p>While the game is also distributed through TestFlight, Apple collects its own crash and usage data under Apple's own terms. See <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.</p>
+
+<h2>Children</h2>
+<p>The game is rated 12+, is not directed at children under 13 and does not knowingly collect personal information from them.</p>
+
+<h2>Removing your data</h2>
+<p>Deleting the app stops everything being sent. To have your name and your runs removed from the leaderboard, write to the address below with the player name you used, and it will be deleted.</p>
+
+<h2>Contact</h2>
+<p>Kostiantyn Halynskyi · <a href="mailto:hegona3@gmail.com">hegona3@gmail.com</a></p>
+
+<h2 id="ru">Что такое Pinhole</h2>
+<p>Pinhole это одиночный роглайт для iPhone и iPad. Здесь нет аккаунта, нет входа и нечего покупать. Вы выбираете имя, спускаетесь в темноту, а игра ведёт доску рекордов: кто как далеко зашёл.</p>
+
+<h2>Что игра не собирает</h2>
+<ul>
+  <li>Ни почты, ни телефона, ни адреса, ни настоящего имени.</li>
+  <li>Ни контактов, ни фотографий, ни геопозиции, ни микрофона, ни камеры.</li>
+  <li>Никакого рекламного идентификатора (IDFA), никакой рекламы и никаких сторонних следящих библиотек.</li>
+  <li>Ничего не продаётся, ничего не передаётся брокерам данных и ничего не используется для слежки за вами в других приложениях и на сайтах.</li>
+</ul>
+
+<h2>Что игра собирает</h2>
+<p>Чтобы работала доска рекордов и чтобы можно было находить поломки, игра отправляет на сервер разработчика следующее:</p>
+<ul>
+  <li>Случайный идентификатор установки, который создаётся на вашем устройстве при первом запуске. Это не идентификатор устройства и он никак не связан с вашим Apple Account.</li>
+  <li>Идентификатор сессии, номер сборки и сезон, в котором идёт игра.</li>
+  <li>Игровые события: что произошло за забег, например зачищен этаж, взята вещь или наступила смерть, и когда это было.</li>
+  <li>Итог законченного забега: до какого этажа дошли, сколько это заняло, сколько тварей убито и чем всё кончилось.</li>
+  <li>Имя игрока, которое вы вводите в игре, от 2 до 18 знаков. Это единственное, что видят другие игроки.</li>
+</ul>
+<p>Если имя не вводить, забеги попадают на доску под именем «Охотник».</p>
+
+<h2>Где это хранится</h2>
+<p>На Cloudflare Workers и в базе Cloudflare D1, которыми управляет разработчик. Сервер записывает время получения каждого сообщения. IP-адрес не сохраняется. Доступа у посторонних нет, данные используются только для доски рекордов и для улучшения игры.</p>
+
+<h2>Ваш прогресс</h2>
+<p>Сохранение, открытые таланты, снаряжение и настройки лежат только на вашем устройстве. Удаление игры удаляет их. Разработчик не может их ни прочитать, ни восстановить.</p>
+
+<h2>TestFlight</h2>
+<p>Пока игра раздаётся ещё и через TestFlight, Apple собирает собственные данные о сбоях и использовании на своих условиях. См. <a href="https://www.apple.com/legal/privacy/">политику конфиденциальности Apple</a>.</p>
+
+<h2>Дети</h2>
+<p>У игры рейтинг 12+, она не предназначена для детей младше 13 лет и сознательно не собирает их персональные данные.</p>
+
+<h2>Удаление данных</h2>
+<p>Удаление игры прекращает любую отправку. Чтобы убрать имя и забеги с доски рекордов, напишите на адрес ниже и укажите имя игрока, которым вы играли. Записи будут удалены.</p>
+
+<h2>Связь</h2>
+<p>Константин Галинский · <a href="mailto:hegona3@gmail.com">hegona3@gmail.com</a></p>
+
+<p class="note">Политика относится к игре Pinhole для iOS. При изменениях обновляется дата наверху. · This policy applies to the Pinhole iOS app. If it changes, the date at the top is updated.</p>
+
+</main>
+</div>
+</body>
+</html>
