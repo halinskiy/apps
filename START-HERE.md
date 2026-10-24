@@ -7,7 +7,7 @@ notarized by Apple**, built for **Apple Silicon (arm64)**, macOS 12+.
 |-----|--------------|----------|------------------|
 | **Pet in The System (PTS)** | A tiny pixel pet that roams across your windows, sleeps, falls when you grab a window, and gets thrown when you drag & drop it. | ● icon | Accessibility |
 | **WGrid** | Tiles windows into grids (1×1…3×3), drag-to-rearrange. | grid icon | Accessibility |
-| **Quirky** | Capture suite: OCR text from screen, color eyedropper, pixel measure, extract DOM/SVG from browsers. | ◆ icon | Screen Recording (+ Accessibility for hotkeys, Automation for browser modes) |
+| **Quirky** | Capture suite: OCR text from screen, color eyedropper, pixel measure, extract DOM/SVG from browsers. | ◆ icon | Screen Recording (+ Automation for browser modes) |
 
 ## Install
 
